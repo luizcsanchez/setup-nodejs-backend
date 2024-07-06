@@ -1,25 +1,26 @@
 {
-  "name": "setup-backend-nodejs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "tsx watch src/server.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@eslint/js": "^9.6.0",
-    "@types/eslint__js": "^8.42.3",
-    "@types/node": "^20.14.10",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "tsx": "^4.16.2",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^7.15.0"
-  },
-  "dependencies": {
-    "fastify": "^4.28.1"
-  }
+    "name": "setup-backend-nodejs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tsx watch --env-file .env src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@eslint/js": "^9.6.0",
+        "@types/eslint__js": "^8.42.3",
+        "@types/node": "^20.14.10",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prisma": "^5.16.1",
+        "tsx": "^4.16.2",
+        "typescript": "^5.5.3",
+        "typescript-eslint": "^7.15.0"
+    },
+    "dependencies": {
+        "fastify": "^4.28.1"
+    }
 }
